@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import React from 'react'
 
-import hero from '../../../public/hero.svg'
+import hero from '@/app/assets/hero.svg'
 
 export const Hero = () => {
     return (
