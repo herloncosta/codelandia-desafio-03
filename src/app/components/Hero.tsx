@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import hero from '@/app/assets/hero.svg'
 
-export const Hero = () => {
+export const Hero: React.FC = () => {
     return (
         <header className="bg-background px-6 py-16">
             <div className="w-fit mx-auto flex flex-col gap-6">

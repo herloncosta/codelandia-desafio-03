@@ -1,13 +1,7 @@
 import Image from 'next/image'
+import { ArticleProps } from '../interfaces'
 
-interface ArticleProps {
-    title: string
-    content: string
-    imagePath: string
-    imageSrc: string
-}
-
-export const Article = ({ title, content, imagePath, imageSrc }: ArticleProps) => {
+export const Article: React.FC<ArticleProps> = ({ title, content, imagePath, imageSrc }) => {
     return (
         <article className="border-2 rounded-md overflow-hidden">
             <div>
