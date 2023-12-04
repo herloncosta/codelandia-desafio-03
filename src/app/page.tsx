@@ -1,4 +1,5 @@
 import { ArticlesContainer } from './components/ArticlesContainer'
+import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
         <>
             <Hero />
             <ArticlesContainer />
+            <Footer />
         </>
     )
 }

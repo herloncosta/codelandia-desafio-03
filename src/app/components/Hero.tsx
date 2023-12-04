@@ -21,7 +21,9 @@ export const Hero = () => {
                         tendências atuais.
                     </p>
 
-                    <button className="py-4 bg-primary text-white rounded">Buscar artigos</button>
+                    <button className="py-4 bg-primary text-white uppercase font-bold rounded">
+                        Buscar artigos
+                    </button>
                 </div>
             </div>
         </header>
