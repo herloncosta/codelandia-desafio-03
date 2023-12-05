@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="pt-BR">
+            <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
             <body className={roboto.className}>{children}</body>
         </html>
     )
