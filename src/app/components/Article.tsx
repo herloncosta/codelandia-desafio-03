@@ -6,7 +6,7 @@ export const Article: React.FC<ArticleProps> = ({ title, content, imagePath, ima
         <article className="border-2 rounded-md overflow-hidden">
             <div>
                 <div className="object-cover">
-                    <Image src={imagePath} alt={imageSrc} />
+                    <Image className="w-full" src={imagePath} alt={imageSrc} />
                 </div>
 
                 <div className="px-6 py-4 flex flex-col gap-3">
